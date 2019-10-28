@@ -1,0 +1,17 @@
+﻿#information {
+    padding: 5px 25px;
+    border: 1px dotted lightgrey;
+    font-size: 0.7em;
+}
+#information dl dt {
+    color: lightyellow;
+}
+#information dl dd {
+    font-weight: bold;
+    color: lightgreen;
+}
+#information span {
+    padding-left: 7px;
+    padding-right: 7px;
+    color: lightpink;
+}

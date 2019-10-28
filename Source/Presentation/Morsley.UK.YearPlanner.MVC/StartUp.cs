@@ -38,7 +38,7 @@ namespace Morsley.UK.YearPlanner.MVC
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error");
             }
 
             app.UseHttpsRedirection();
@@ -49,7 +49,7 @@ namespace Morsley.UK.YearPlanner.MVC
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Planner}/{action=Year}/{value?}");
             });
         }
     }
